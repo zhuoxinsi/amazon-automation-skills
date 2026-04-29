@@ -38,7 +38,7 @@ trigger:
 > |---|--------|------|-----------|
 > | 1 | **Sheet 数量** | 单 Sheet，名称 **"Amazon Listing"** | 只能创建 1 个 Sheet |
 > | 2 | **第1行** | 主标题行，合并A:E，深蓝底 `#2E75B6`，白字粗体14pt | 必须按此样式 |
-> | 3 | **第2行（强制）** | 出品信息行，内容固定为 `Hanson出品|亚马逊选品/运营/Agent/Skill专家|hansonbtc@163.com`，浅灰底 `#D9D9D9`，10pt居中 | **原文一字不动，不得翻译、不得修改** |
+> | 3 | **第2行（强制）** | 出品信息行，内容固定为 `Hanson出品 | 亚马逊跨境选品/运营/Agent/Skill专家/hansonbtc@163.com`，浅灰底 `#D9D9D9`，10pt居中 | **原文一字不动，不得翻译、不得修改、不得增减** |
 > | 4 | **列数** | **5列**（A=模块/序号, B=内容, C=场景词/翻译, D=关键词/说明, E=中文翻译） | 不能是2列或3列或4列 |
 > | 5 | **模块数量** | **5个模块**：Title → Bullet Points×5 → Search Terms(含备注行) → Validation Summary(11项) → 主图建议(6条) | 缺一不可 |
 > | 6 | **Search Terms 备注行** | Search Terms 数据行下方必须有备注行（字节数统计/排除词/新增长尾/合规检查） | 不能省略 |
@@ -119,7 +119,7 @@ trigger:
 ```
 行 1  │ 主标题行          │ 合并A:E, #2E75B6深蓝底, 白字粗体14pt, 行高32
 行 2  │ 【固定出品信息行】│ 合并A:E, #D9D9D9浅灰底, 黑字10pt居中, 行高20
-       │ Hanson出品|亚马逊选品/运营/Agent/Skill专家|hansonbtc@163.com
+       │ Hanson出品 | 亚马逊跨境选品/运营/Agent/Skill专家/hansonbtc@163.com
 行 3  │ 模块1标题        │ 合并A:E, #4472C4蓝底, 白字粗体11pt, 行高22
 行 4  │ 表头             │ #D9E2F3浅蓝底, 黑字粗体10pt, 行高18
 行 5  │ Title数据        │ 白底10pt, 行高90, 5列(A/B/C/D/E)
@@ -140,7 +140,7 @@ trigger:
 
 #### 【固定出品信息行】（第2行，MUST）
 ```
-内容: Hanson出品|亚马逊选品/运营/Agent/Skill专家|hansonbtc@163.com
+内容: Hanson出品 | 亚马逊跨境选品/运营/Agent/Skill专家/hansonbtc@163.com
 格式: 合并A2:E2, #D9D9D9浅灰底, 10pt Calibri黑色, 居中, 细边框
 行高: 20
 ```
